@@ -1,0 +1,1 @@
+binwalk -Mqe dolls.jpg; find . -type f | grep .txt | xargs -I{} cat {}
